@@ -1,4 +1,4 @@
-import React from "react"; // , { createContext, useContext }
+// import React from "react"; // , { createContext, useContext }
 
 import { reducer } from './reducers';
 import { legacy_createStore as createStore} from 'redux';
@@ -8,8 +8,8 @@ import { legacy_createStore as createStore} from 'redux';
 // import { Provider } from 'react-redux';
 
 // const StoreContext = createContext();
-const StoreContext = createStore(reducer);
-console.log('storecone:',StoreContext)
+const store = createStore(reducer);
+console.log('storeContext:',store)
 // const { Provider } = StoreContext;
 
 // const StoreProvider = ({ value = [], ...props }) => {
@@ -31,4 +31,4 @@ console.log('storecone:',StoreContext)
 // };
 
 // export { StoreProvider, useStoreContext };
-export default StoreContext;
+export default store;
