@@ -10,7 +10,7 @@ import { idbPromise } from "../../utils/helpers";
 function ProductItem(item) {
   // const [state, dispatch] = useStoreContext();
   const state = useSelector(state => {return state});
-  const dispatch = useDispatch;
+  const dispatch = useDispatch();
 
   const {
     image,

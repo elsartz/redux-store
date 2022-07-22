@@ -9,7 +9,7 @@ const CartItem = ({ item }) => {
 
   // const [, dispatch] = useStoreContext();
   // const state = useSelector(state => {return state});
-  const dispatch = useDispatch;
+  const dispatch = useDispatch();
 
   const removeFromCart = item => {
     dispatch({

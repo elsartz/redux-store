@@ -18,7 +18,7 @@ import spinner from '../assets/spinner.gif';
 function Detail() {
   // const [state, dispatch] = useStoreContext();
   const state = useSelector(state => {return state});
-  const dispatch = useDispatch;
+  const dispatch = useDispatch();
 
 
   const { id } = useParams();
