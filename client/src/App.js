@@ -16,7 +16,7 @@ import Signup from './pages/Signup';
 import Nav from './components/Nav';
 
 import { Provider } from 'react-redux';
-import { StoreContext as store } from './utils/GlobalState';
+import StoreContext from './utils/GlobalState';
 
 import Success from './pages/Success';
 import OrderHistory from './pages/OrderHistory';
@@ -47,7 +47,7 @@ function App() {
     <ApolloProvider client={client}>
       <Router>
         <div>
-          <StoreProvider store={store}>
+          <StoreProvider StoreContext={StoreContext}>
             <Nav />
             <Routes>
               <Route 

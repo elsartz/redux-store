@@ -9,6 +9,7 @@ import { legacy_createStore as createStore} from 'redux';
 
 // const StoreContext = createContext();
 const StoreContext = createStore(reducer);
+console.log('storecone:',StoreContext)
 // const { Provider } = StoreContext;
 
 // const StoreProvider = ({ value = [], ...props }) => {
