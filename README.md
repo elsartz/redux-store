@@ -2,8 +2,6 @@
   # Redux Store
   
   ## Refactoring from React’s Context API to Redux
-  
-  > undefined
 
   ## Table of Contents
   - [Installation](#installation)
@@ -14,10 +12,16 @@
   - [Questions](#questions)
 
   # Installation
+    A full working e-commerce platform that uses:
+    - IndexedDB for offline storage, 
+    - MongoDB Atlas as a cloud storage and it is deployed on 
+    - [Heroku](https://still-journey-63976.herokuapp.com/) a container-based cloud Platform as a Service (PaaS).
     
 
   # Usage
-    AS a senior engineer working on an e-commerce platform
+    AS a software engineer working on an e-commerce platform,
+    I WANT my platform to use Redux to manage global state instead of the Context API,
+    SO THAT my website's state management is taken out of the React ecosystem.
 
   # Contributing
     Vardis Sartzetakis
