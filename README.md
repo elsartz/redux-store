@@ -13,9 +13,9 @@
 
   # Installation
     A full working e-commerce platform that uses:
-    - IndexedDB for offline storage, 
-    - MongoDB Atlas as a cloud storage and it is deployed on 
-    - [Heroku](https://still-journey-63976.herokuapp.com/) a container-based cloud Platform as a Service (PaaS).
+   - IndexedDB for offline storage, 
+   - MongoDB Atlas as a cloud storage and it is deployed on 
+   - [Heroku](https://still-journey-63976.herokuapp.com/) a container-based cloud Platform as a Service (PaaS).
     
 
   # Usage
@@ -31,6 +31,10 @@
 
   # Tests
     Screenshots >
+   ![Tests](https://github.com/elsartz/redux-store/blob/main/img/tests.png)
+   ![Logged in](https://github.com/elsartz/redux-store/blob/main/img/logged%20in.jpeg)
+   ![Checkout](https://github.com/elsartz/redux-store/blob/main/img/checkout.jpeg)
+   ![Storage](https://github.com/elsartz/redux-store/blob/main/img/offline%20storage.png)
 
   # Questions
   If you have any questions, please contact me at [email](mailto:elsartz@gmail.com).
